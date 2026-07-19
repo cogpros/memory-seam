@@ -1,5 +1,7 @@
 # Memory Seam
 
+> This is a fork of [jeremyknows/memory-seam](https://github.com/jeremyknows/memory-seam). All credit for the original design and implementation goes to [Jeremy Knows](https://github.com/jeremyknows).
+
 Memory Seam is a portable, receipt-first boundary layer that sits between AI agents and their memory backends: agents ask through the seam, and the seam enforces authority, scoping, and receipts before anything can be returned. It is for engineers building agent memory, RAG, personal knowledge, or internal assistant systems who need a small Python core that makes memory access auditable and fail-closed instead of letting every agent read directly from every backend.
 
 ## Why This Exists
